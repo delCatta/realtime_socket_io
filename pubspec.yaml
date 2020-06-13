@@ -1,7 +1,6 @@
 name: realtime_socket_io
 description: A Socket implementation flow to join a room, listen to changes and communicate with your Socket Server.
-version: 0.0.2
-author: Diego Cattarinich Clavel<dev.cattarinich@gmail.com>
+version: 1.0.0
 homepage: https://github.com/TheChileanKink/realtime_socket_io
 
 environment:
