@@ -1,3 +1,3 @@
-## [0.0.1] - TODO: Add release date.
-
-* TODO: Describe initial release.
+## [0.0.1] - 2020-06-12
+ 
+* Subscribe to a Room in your Node JS server (Socket.io) and push Realtime changes.
