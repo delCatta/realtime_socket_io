@@ -1,6 +1,6 @@
 name: realtime_socket_io
 description: A Socket implementation flow to join a room, listen to changes and communicate with your Socket Server.
-version: 1.0.0
+version: 1.0.1
 homepage: https://github.com/TheChileanKink/realtime_socket_io
 
 environment:
