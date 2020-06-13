@@ -1,6 +1,6 @@
 name: realtime_socket_io
-description: Realtime Room Flow with NodeJs Server for Flutter.
-version: 0.0.1
+description: A Socket implementation flow to join a room, listen to changes and communicate with your Socket Server.
+version: 0.0.2
 author: Diego Cattarinich Clavel<dev.cattarinich@gmail.com>
 homepage: https://github.com/TheChileanKink/realtime_socket_io
 
