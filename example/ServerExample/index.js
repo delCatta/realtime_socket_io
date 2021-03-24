@@ -16,15 +16,12 @@ app.post('/', function (req, res) {
 io.on('connection', function (socket) {
     console.log(`${socket.id} connected.`);
     socket.on("subRoom", function (data, fn) {
-        var room = data.room;
-        //In case you want to do something with {otherData} when subscribing.
-        //     var otherData = data.data;  
+        const {room} = data;
         socket.join(room);
         pushInitialRoomData(socket, room); 
     });
     socket.on("unSubRoom", function (data, fn) {
-        var room = data.room;
-        // var otherData = data.data;  In case you want to do something when unsubscribing.
+        const {room} = data;
         socket.leave(room);
     });
 });
